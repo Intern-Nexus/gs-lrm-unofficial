@@ -1,0 +1,19 @@
+
+name: lrm
+patch_size: 8
+attn_dim: 1024
+
+transformer:
+  head_dim: 16
+  num_layers: 24
+
+gaussians_params:
+  sh_degree: 0
+  scale_bias: -2.3
+  scale_max: 0.3
+  opacity_bias: -2.0
+  near_plane: 0.01
+  far_plane: 500.0
+
+apply_bounds_shim: True
+near_disparity: 3.0
